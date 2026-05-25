@@ -6,7 +6,7 @@ Envia email cuando detecta un drop disponible
 
 import time
 import smtplib
-import requests
+import os
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
@@ -16,7 +16,7 @@ from datetime import datetime
 # ============================================================
 
 EMAIL = "sjosetomas06@gmail.com"
-PASSWORD_APP = "AQUI_TU_CONTRASEÑA_DE_APP"  # Ver instrucciones abajo
+PASSWORD_APP = os.environ.get("EMAIL_PASSWORD", "")  # Ver instrucciones abajo
 
 # Palabras clave a buscar (puedes agregar mas)
 KEYWORDS = [
