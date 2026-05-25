@@ -15,7 +15,7 @@ from datetime import datetime
 # CONFIGURACION - EDITA ESTOS VALORES
 # ============================================================
 
-EMAIL = "jotatesuazo2011@gmail.com"
+EMAIL = "sjosetomas06@gmail.com"
 PASSWORD_APP = "AQUI_TU_CONTRASEÑA_DE_APP"  # Ver instrucciones abajo
 
 # Palabras clave a buscar (puedes agregar mas)
